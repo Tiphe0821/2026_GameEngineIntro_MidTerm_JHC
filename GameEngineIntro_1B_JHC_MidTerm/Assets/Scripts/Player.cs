@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    private bool isDoubleJump = false;
     private float moveInput;
 
     private void Awake()
@@ -24,6 +25,11 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+
+        if(isGrounded)
+        {
+            isDoubleJump = true;
+        }
     }
 
     public void OnMove(InputValue value)
@@ -38,6 +44,14 @@ public class Player : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            
+        }
+
+        if (value.isPressed && isDoubleJump && !isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            isDoubleJump = false;
         }
     }
 

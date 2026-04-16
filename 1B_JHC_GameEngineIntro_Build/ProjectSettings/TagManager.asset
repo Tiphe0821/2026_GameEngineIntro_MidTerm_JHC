@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
+  - Boundary
+  - Obstacle
+  - Item
   layers:
   - Default
   - TransparentFX

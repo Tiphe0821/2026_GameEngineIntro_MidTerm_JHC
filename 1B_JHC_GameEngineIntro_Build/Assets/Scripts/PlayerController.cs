@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -10,12 +11,22 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+    public int playerHp = 3;
+    private bool isArmed = false;
+
+    public GameObject[] playerHealthDisplay;
+
     private Rigidbody2D rb;
     private Animator myAnimator;
 
     private bool isGrounded;
     private bool isDoubleJump = false;
     private float moveInput;
+
+    private float immuneTime = 1.0f;
+    private float lastDamageTime = -1.0f;
+    private bool isHurt = false;
+    public Color immuneStateColor;
 
     private void Awake()
     {
@@ -26,8 +37,19 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (lastDamageTime + 0.1f > Time.time)
+        {
+            isHurt = true;
+            moveInput = 0;
 
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+            myAnimator.SetTrigger("hurt");
+        }
+        else if(lastDamageTime + 0.4f < Time.time)
+        {
+            isHurt = false;
+        }
+
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
@@ -54,6 +76,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
+        if (isHurt) return;
+
         Vector2 input = value.Get<Vector2>();
         moveInput = input.x;
         if (moveInput != 0)
@@ -71,6 +95,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnJump(InputValue value)
     {
+        if(isHurt) return;
+
         if (value.isPressed && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
@@ -85,11 +111,69 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void PlayerDamage()
+    {
+        playerHp--;
+        //playerHealthDisplay[playerHp].SetActive(false);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Respawn"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if(collision.CompareTag("Enemy"))
+        {
+
+
+            if (!isArmed)
+            {
+                if (lastDamageTime + immuneTime < Time.time)
+                {
+
+                    PlayerDamage();
+
+
+                    if (playerHp <= 0)
+                    {
+                        // 죽음 애니메이션 구현 예정
+                    }
+
+                    lastDamageTime = Time.time;
+                }
+            }
+            else
+            {
+                Destroy(collision.gameObject);
+                isArmed = false;
+                
+                lastDamageTime = Time.time;
+            }
+        }
+
+        if(collision.CompareTag("Finish"))
+        {
+            collision.GetComponent<LevelObject>().NextLevel();
+        }
+
+        if(collision.CompareTag("Item"))
+        {
+            int activeItemID = collision.GetComponent<ItemScripts>().ActiveItem();
+
+            switch(activeItemID)
+            {
+                case 1:     // 1회 무적 아이템
+                    isArmed = true;
+                    break;
+                case 2:     // 이동속도 증가 아이템
+                    break;
+                case 3:     // 이동속도 감소 아이템
+                    break;
+                case 4:     // 
+                    break;
+            }
         }
     }
 }

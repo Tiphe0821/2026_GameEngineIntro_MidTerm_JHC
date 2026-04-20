@@ -1,85 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\tempproject\\2026_gameengineintro_midterm_jhc_temp\\1b_jhc_gameengineintro_build\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\levelobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\enemytracecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemytracecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\itemscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LevelObject.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\LevelObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelObject.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\LevelObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LevelObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T07:17:06.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnemyTraceController.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\EnemyTraceController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyTraceController.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\EnemyTraceController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyTraceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T06:34:26.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:52:13.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemScripts.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\ItemScripts.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemScripts.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\ItemScripts.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemScripts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:52:06.493Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

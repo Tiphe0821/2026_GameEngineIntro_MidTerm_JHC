@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float moveSpeed = 1.5f;
+    public float moveSpeed = 2f;
 
     private Rigidbody2D rb;
     private bool isMovingRight = true;
@@ -17,15 +17,15 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isMovingRight)
+        if(isMovingRight)
             rb.linearVelocity = new Vector2(moveSpeed, rb.linearVelocity.y);
         else
-            rb.linearVelocity = new Vector2(moveSpeed, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(-moveSpeed, rb.linearVelocity.y);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Boundary"))
+        if(collision.CompareTag("Boundary"))
         {
             isMovingRight = !isMovingRight;
         }

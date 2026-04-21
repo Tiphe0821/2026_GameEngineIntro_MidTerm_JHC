@@ -28,7 +28,6 @@ public class PlayerController : MonoBehaviour
     private float lastDamageTime = -1.0f;
     private bool isHurt = false;
     private bool isDead = false;
-    public Color immuneStateColor;
 
     private void Awake()
     {
@@ -167,7 +166,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                Destroy(collision.gameObject);
+                collision.gameObject.SetActive(false);
                 isArmed = false;
                 armorDisplay.SetActive(false);
                 
@@ -178,6 +177,11 @@ public class PlayerController : MonoBehaviour
         if(collision.CompareTag("Finish"))
         {
             collision.GetComponent<LevelObject>().NextLevel();
+        }
+
+        if(collision.CompareTag("Save"))
+        {
+            collision.GetComponent<SavePoint>().NewSavePoint();
         }
 
         if(collision.CompareTag("Item"))

@@ -6,7 +6,7 @@ public class StageManager : MonoBehaviour
     public GameObject player;
 
     public GameObject[] respawnPoint;
-    private int currentRespawnPoint;
+    public int currentRespawnPoint = 0;
 
     private float deadTime;
     private float respawnDelayTime = 2.0f;

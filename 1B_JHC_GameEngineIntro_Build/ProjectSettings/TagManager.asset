@@ -9,6 +9,7 @@ TagManager:
   - Obstacle
   - Item
   - StoneFloor
+  - Save
   layers:
   - Default
   - TransparentFX

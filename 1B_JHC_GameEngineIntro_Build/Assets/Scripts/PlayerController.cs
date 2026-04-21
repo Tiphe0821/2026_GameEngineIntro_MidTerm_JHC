@@ -1,7 +1,5 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private bool isArmed = false;
 
     public GameObject[] playerHealthDisplay;
+    public GameObject armorDisplay;
     public StageManager stageManager;
 
     private Rigidbody2D rb;
@@ -140,7 +139,7 @@ public class PlayerController : MonoBehaviour
         if(collision.CompareTag("Respawn"))
         {
             isDead = true;
-            stageManager.PlayerRespawn();
+            stageManager.PlayerRespawn(isDead);
         }
 
         if(collision.CompareTag("Enemy"))
@@ -170,6 +169,7 @@ public class PlayerController : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 isArmed = false;
+                armorDisplay.SetActive(false);
                 
                 lastDamageTime = Time.time;
             }
@@ -188,6 +188,7 @@ public class PlayerController : MonoBehaviour
             {
                 case 1:     // 1회 무적 아이템
                     isArmed = true;
+                    armorDisplay.SetActive(true);
                     break;
                 case 2:     // 이동속도 증가 아이템
                     break;
@@ -196,6 +197,8 @@ public class PlayerController : MonoBehaviour
                 case 4:     // 
                     break;
             }
+
+            collision.gameObject.SetActive(false);
         }
     }
 
@@ -211,6 +214,8 @@ public class PlayerController : MonoBehaviour
         }
 
         myAnimator.SetBool("isDead", false);
+
+        rb.linearVelocity = new Vector2(0, 0);
     }
 }
 

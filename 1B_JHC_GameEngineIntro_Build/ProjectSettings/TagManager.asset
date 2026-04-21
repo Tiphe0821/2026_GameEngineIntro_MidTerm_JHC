@@ -8,6 +8,7 @@ TagManager:
   - Boundary
   - Obstacle
   - Item
+  - StoneFloor
   layers:
   - Default
   - TransparentFX

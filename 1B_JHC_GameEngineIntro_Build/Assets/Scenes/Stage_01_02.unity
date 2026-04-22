@@ -44676,6 +44676,8 @@ MonoBehaviour:
   currentRespawnPoint: 0
   items:
   - {fileID: 972190241}
+  enemies: []
+  enemySpawns: []
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -44859,6 +44861,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4605895182166104849, guid: b1434f06d541b884a81dd3d7106bf154, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5894437810298386918, guid: b1434f06d541b884a81dd3d7106bf154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81
@@ -44902,6 +44908,10 @@ PrefabInstance:
     - target: {fileID: 6827601226899138877, guid: b1434f06d541b884a81dd3d7106bf154, type: 3}
       propertyPath: m_Name
       value: goal
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125496367761481265, guid: b1434f06d541b884a81dd3d7106bf154, type: 3}
+      propertyPath: nextLevel
+      value: Stage_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72575,11 +72585,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 435347559567078103, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 70
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 435347559567078103, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 435347559567078103, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -72740,6 +72750,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4138330015368718608, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5061636362891398984, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502404065710650322, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7739808073054994413, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}

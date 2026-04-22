@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 1124539111833126109}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,7 +192,9 @@ MonoBehaviour:
     m_Bits: 8
   playerHp: 3
   playerHealthDisplay: []
-  immuneStateColor: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 0}
+  armorDisplay: {fileID: 0}
+  stageManager: {fileID: 0}
+  damageAmount: 1
 --- !u!1 &3980025631431632533
 GameObject:
   m_ObjectHideFlags: 0

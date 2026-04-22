@@ -16,6 +16,10 @@ public class StageManager : MonoBehaviour
     // 사용되었던 아이템 일괄 활성화
     public GameObject[] items;
 
+    // 죽은 몬스터 활성화, 몬스터 원위치
+    public GameObject[] enemies;
+    public Transform[] enemySpawns;
+
     private void Start()
     {
         currentRespawnPoint = 0;
@@ -42,6 +46,12 @@ public class StageManager : MonoBehaviour
         foreach (var item in items)
         {
             item.gameObject.SetActive(true);
+        }
+
+        for(int i = 0; i < enemies.Length; i++)
+        {
+            enemies[i].gameObject.SetActive(true);
+            enemies[i].transform.position = enemySpawns[i].transform.position;
         }
 
         isDead = isdead;

@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject[] playerHealthDisplay;
     public GameObject armorDisplay;
+    public GameObject speedDisplay;
     public StageManager stageManager;
 
     private Rigidbody2D rb;
@@ -22,6 +23,11 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private bool isDoubleJump = false;
     private float moveInput;
+
+    private float speedUpTime = 15.0f;
+    private float buffTime;
+    private bool isSpeedy = false;
+    private float buffSpeed = 1.8f;
 
     public int damageAmount = 1;
     private float immuneTime = 1.0f;
@@ -50,11 +56,22 @@ public class PlayerController : MonoBehaviour
             isHurt = false;
         }
 
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        if (!isSpeedy)
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        else
+        {
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed * buffSpeed, rb.linearVelocity.y);
+            if (buffTime + speedUpTime < Time.time)
+            {
+                speedDisplay.SetActive(false);
+                isSpeedy = false;
+            }
+        }
 
 
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
 
         if(rb.linearVelocity.y < -0)
         {
@@ -195,6 +212,9 @@ public class PlayerController : MonoBehaviour
                     armorDisplay.SetActive(true);
                     break;
                 case 2:     // 이동속도 증가 아이템
+                    buffTime = Time.time;
+                    isSpeedy = true;
+                    speedDisplay.SetActive(true);
                     break;
                 case 3:     // 이동속도 감소 아이템
                     break;
@@ -210,6 +230,13 @@ public class PlayerController : MonoBehaviour
     {
         isHurt = false;
         isDead = false;
+
+        speedDisplay.SetActive(false);
+        isSpeedy = false;
+
+        armorDisplay.SetActive(false);
+        isArmed = false;
+        
         playerHp = 3;
 
         for(int i = 0; i<3; i++)

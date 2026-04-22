@@ -241,7 +241,11 @@ public class PlayerController : MonoBehaviour
                     isSpeedy = true;
                     speedDisplay.SetActive(true);
                     break;
-                case 3:     // 이동속도 감소 아이템
+                case 3:     // 이동속도 원상복구 + 증가 아이템
+                    buffTime1 = Time.time;
+                    buffSpeed = 1.8f;
+                    isSpeedy = true;
+                    speedDisplay.SetActive(true);
                     break;
                 case 4:     // 점프력 증가 아이템
                     buffTime2 = Time.time;

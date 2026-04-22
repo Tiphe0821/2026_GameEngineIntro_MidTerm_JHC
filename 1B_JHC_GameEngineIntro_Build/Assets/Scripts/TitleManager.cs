@@ -1,10 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class TitleManager : MonoBehaviour
 {
     public GameObject helpPannel;
     public GameObject settingPannel;
+    public SoundManager soundObject;
+
+    public Scrollbar scrollbar;
+
     public void StartButton()
     {
         Debug.Log("StartButton Clicked");
@@ -40,6 +45,11 @@ public class TitleManager : MonoBehaviour
     {
         Debug.Log("QuitGame");
         Application.Quit();
+    }
+
+    public void OnValueChange(float value)
+    {
+        soundObject.ChangeVolume(scrollbar.value);
     }
 
     private void Update()

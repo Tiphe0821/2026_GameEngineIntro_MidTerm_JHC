@@ -15,6 +15,10 @@ public class SoundManager : MonoBehaviour
         PlayCurrentAudio();
     }
 
+    public void ChangeVolume(float value)
+    {
+        audioSource.volume = value;
+    }
     public void PlayCurrentAudio()
     {
         audioSource.PlayOneShot(clip[currentClip]);

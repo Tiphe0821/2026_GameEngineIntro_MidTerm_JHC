@@ -810,6 +810,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5061636362891398984, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
   m_PrefabInstance: {fileID: 673238570}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &673238572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8833139207083010314, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
+  m_PrefabInstance: {fileID: 673238570}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &685570454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1437,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1124539111833126109, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
+      propertyPath: jumpDisplay
+      value: 
+      objectReference: {fileID: 673238572}
     - target: {fileID: 1124539111833126109, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
       propertyPath: armorDisplay
       value: 
@@ -2088,6 +2097,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TitleManager
   helpPannel: {fileID: 0}
   settingPannel: {fileID: 0}
+  soundObject: {fileID: 0}
+  scrollbar: {fileID: 0}
 --- !u!4 &1491692543
 Transform:
   m_ObjectHideFlags: 0
@@ -29707,6 +29718,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4605895182166104849, guid: b1434f06d541b884a81dd3d7106bf154, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5894437810298386918, guid: b1434f06d541b884a81dd3d7106bf154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26

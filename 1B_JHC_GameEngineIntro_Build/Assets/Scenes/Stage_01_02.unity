@@ -71300,6 +71300,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4582772280431983821, guid: 9e7e17e49e70dd245bfaa80794462b97, type: 3}
   m_PrefabInstance: {fileID: 1108254458}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1141962709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8833139207083010314, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
+  m_PrefabInstance: {fileID: 4559084879830214386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1236845873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5061636362891398984, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
+  m_PrefabInstance: {fileID: 4559084879830214386}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1249118507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 435347559567078103, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
@@ -72624,9 +72634,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1124539111833126109, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
+      propertyPath: jumpDisplay
+      value: 
+      objectReference: {fileID: 1141962709}
+    - target: {fileID: 1124539111833126109, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
       propertyPath: armorDisplay
       value: 
       objectReference: {fileID: 1053837007}
+    - target: {fileID: 1124539111833126109, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
+      propertyPath: speedDisplay
+      value: 
+      objectReference: {fileID: 1236845873}
     - target: {fileID: 1124539111833126109, guid: 86b1ba41972465d49bef8cc167c5a2f9, type: 3}
       propertyPath: stageManager
       value: 

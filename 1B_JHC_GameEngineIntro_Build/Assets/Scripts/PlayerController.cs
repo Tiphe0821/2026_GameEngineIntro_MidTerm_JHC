@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     private float speedUpTime = 15.0f;
     private float buffTime1;
     private bool isSpeedy = false;
-    private float buffSpeed = 1.8f;
+    public float buffSpeed = 1.8f;
 
     private float jumpUpTime = 15.0f;
     private float buffTime2;

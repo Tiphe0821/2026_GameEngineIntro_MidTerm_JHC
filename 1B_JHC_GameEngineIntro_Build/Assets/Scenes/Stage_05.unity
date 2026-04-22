@@ -1917,8 +1917,20 @@ PrefabInstance:
       value: SoundObject
       objectReference: {fileID: 0}
     - target: {fileID: 2495928759267849263, guid: c257f004ce3cd664590246bac3e97f4f, type: 3}
+      propertyPath: m_Pitch
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495928759267849263, guid: c257f004ce3cd664590246bac3e97f4f, type: 3}
       propertyPath: m_Volume
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495928759267849263, guid: c257f004ce3cd664590246bac3e97f4f, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4533539529195987517, guid: c257f004ce3cd664590246bac3e97f4f, type: 3}
+      propertyPath: currentClip
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7298760680434792582, guid: c257f004ce3cd664590246bac3e97f4f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10285,6 +10297,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 4700097810580375543, guid: 8d03d76e7a1cefa49baba0c615d98c6e, type: 3}
+    - target: {fileID: 7739808073054994413, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 157043497}
+    - target: {fileID: 7739808073054994413, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenTitleScene
+      objectReference: {fileID: 0}
     - target: {fileID: 8833139207083010314, guid: 9f2697a4c69056c4d8ef61697af8f35a, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -10661,6 +10681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4605895182166104849, guid: b1434f06d541b884a81dd3d7106bf154, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5894437810298386918, guid: b1434f06d541b884a81dd3d7106bf154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 242

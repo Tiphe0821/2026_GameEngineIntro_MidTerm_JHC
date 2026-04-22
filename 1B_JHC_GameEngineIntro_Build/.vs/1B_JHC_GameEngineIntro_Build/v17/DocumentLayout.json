@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\stonespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stonespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\tempproject\\2026_gameengineintro_midterm_jhc_temp\\1b_jhc_gameengineintro_build\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\stonefall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stonefall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\tempproject\\2026_gameengineintro_midterm_jhc_temp\\1b_jhc_gameengineintro_build\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\tilemapdisabler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tilemapdisabler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAE8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T08:17:44.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TilemapDisabler.cs",
               "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\TilemapDisabler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TilemapDisabler.cs",
@@ -60,108 +45,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T10:17:36.907Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T09:58:38.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StoneFall.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\StoneFall.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StoneFall.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\StoneFall.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StoneFall.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T06:31:14.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnemyController.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\EnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\EnemyController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T06:26:01.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StoneSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\StoneSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StoneSpawner.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\StoneSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StoneSpawner.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T06:15:30.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAMgAAAAAAAAAAAAAANIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:47:23.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StageManager.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\StageManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StageManager.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\StageManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StageManager.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAC0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:35:12.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SoundManager.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\SoundManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundManager.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\SoundManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SoundManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:35:10.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SavePoint.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\SavePoint.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SavePoint.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\SavePoint.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SavePoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:34:35.868Z"
             }
           ]
         }

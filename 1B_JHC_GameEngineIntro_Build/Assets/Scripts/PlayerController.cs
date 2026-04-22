@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public GameObject[] playerHealthDisplay;
     public GameObject armorDisplay;
     public GameObject speedDisplay;
+    public GameObject jumpDisplay;
     public StageManager stageManager;
 
     private Rigidbody2D rb;
@@ -25,9 +26,14 @@ public class PlayerController : MonoBehaviour
     private float moveInput;
 
     private float speedUpTime = 15.0f;
-    private float buffTime;
+    private float buffTime1;
     private bool isSpeedy = false;
     private float buffSpeed = 1.8f;
+
+    private float jumpUpTime = 15.0f;
+    private float buffTime2;
+    private bool isFrog = false;
+    private float buffJumpForce = 1.8f;
 
     public int damageAmount = 1;
     private float immuneTime = 1.0f;
@@ -61,13 +67,18 @@ public class PlayerController : MonoBehaviour
         else
         {
             rb.linearVelocity = new Vector2(moveInput * moveSpeed * buffSpeed, rb.linearVelocity.y);
-            if (buffTime + speedUpTime < Time.time)
+            if (buffTime1 + speedUpTime < Time.time)
             {
                 speedDisplay.SetActive(false);
                 isSpeedy = false;
             }
         }
 
+        if(buffTime2 + jumpUpTime < Time.time)
+        {
+            jumpDisplay.SetActive(false);
+            isFrog = false;
+        }
 
 
 
@@ -131,14 +142,28 @@ public class PlayerController : MonoBehaviour
         if (value.isPressed && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            myAnimator.SetTrigger("jump");
+            if(!isFrog)
+            {
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            }
+            else
+            {
+                rb.AddForce(Vector2.up * jumpForce * buffJumpForce, ForceMode2D.Impulse);
+            }
+                myAnimator.SetTrigger("jump");
         }
 
         if (value.isPressed && isDoubleJump && !isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            if (!isFrog)
+            {
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            }
+            else
+            {
+                rb.AddForce(Vector2.up * jumpForce * buffJumpForce, ForceMode2D.Impulse);
+            }
             isDoubleJump = false;
             myAnimator.SetTrigger("jump");
         }
@@ -212,13 +237,16 @@ public class PlayerController : MonoBehaviour
                     armorDisplay.SetActive(true);
                     break;
                 case 2:     // 이동속도 증가 아이템
-                    buffTime = Time.time;
+                    buffTime1 = Time.time;
                     isSpeedy = true;
                     speedDisplay.SetActive(true);
                     break;
                 case 3:     // 이동속도 감소 아이템
                     break;
-                case 4:     // 
+                case 4:     // 점프력 증가 아이템
+                    buffTime2 = Time.time;
+                    isFrog = true;
+                    jumpDisplay.SetActive(true);
                     break;
             }
 
@@ -236,6 +264,9 @@ public class PlayerController : MonoBehaviour
 
         armorDisplay.SetActive(false);
         isArmed = false;
+
+        jumpDisplay.SetActive(false);
+        isFrog = false;
         
         playerHp = 3;
 

@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class TitleManager : MonoBehaviour
 {
     public GameObject helpPannel;
     public GameObject settingPannel;
+    public GameObject leaderboard;
     public SoundManager soundObject;
 
     public Scrollbar scrollbar;
@@ -14,6 +16,11 @@ public class TitleManager : MonoBehaviour
     {
         Debug.Log("StartButton Clicked");
         SceneManager.LoadScene("Stage_01_02");
+    }
+
+    public void OpenLeaderboard()
+    {
+        leaderboard.SetActive(true);
     }
 
     public void OpenHelp()

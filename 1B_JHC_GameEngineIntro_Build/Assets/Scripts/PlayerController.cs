@@ -1,5 +1,7 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -41,10 +43,14 @@ public class PlayerController : MonoBehaviour
     private bool isHurt = false;
     private bool isDead = false;
 
+    float score;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponentInChildren<Animator>();
+
+        score = 0;
     }
 
     // Update is called once per frame
@@ -218,6 +224,8 @@ public class PlayerController : MonoBehaviour
 
         if(collision.CompareTag("Finish"))
         {
+            HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)score);
+
             collision.GetComponent<LevelObject>().NextLevel();
         }
 
@@ -228,6 +236,8 @@ public class PlayerController : MonoBehaviour
 
         if(collision.CompareTag("Item"))
         {
+            score += 10;
+
             int activeItemID = collision.GetComponent<ItemScripts>().ActiveItem();
 
             switch(activeItemID)

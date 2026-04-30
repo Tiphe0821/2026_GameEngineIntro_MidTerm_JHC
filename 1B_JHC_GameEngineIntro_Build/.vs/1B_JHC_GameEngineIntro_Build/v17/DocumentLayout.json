@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\tempproject\\2026_gameengineintro_midterm_jhc_temp\\1b_jhc_gameengineintro_build\\assets\\scripts\\enemytracecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemytracecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\tempproject\\2026_gameengineintro_midterm_jhc_temp\\1b_jhc_gameengineintro_build\\assets\\scripts\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\platformdisapear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformdisapear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\tempproject\\2026_gameengineintro_midterm_jhc_temp\\1b_jhc_gameengineintro_build\\assets\\scripts\\highscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\highscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyTraceController.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\EnemyTraceController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyTraceController.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\EnemyTraceController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyTraceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "HighScore.cs",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\HighScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HighScore.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\HighScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HighScore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T21:32:12.401Z",
+              "WhenOpened": "2026-04-30T06:11:51.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlatformDisapear.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlatformDisapear.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlatformDisapear.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlatformDisapear.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlatformDisapear.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LeaderBoard.cs",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\LeaderBoard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LeaderBoard.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\LeaderBoard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LeaderBoard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T21:00:43.573Z"
+              "WhenOpened": "2026-04-30T06:02:44.487Z",
+              "EditorCaption": ""
             }
           ]
         }

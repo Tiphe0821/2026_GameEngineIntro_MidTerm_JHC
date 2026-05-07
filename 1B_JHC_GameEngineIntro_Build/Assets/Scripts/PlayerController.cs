@@ -224,8 +224,9 @@ public class PlayerController : MonoBehaviour
 
         if(collision.CompareTag("Finish"))
         {
-            HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)score);
-
+            // HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)score);
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)score);
+            
             collision.GetComponent<LevelObject>().NextLevel();
         }
 
@@ -236,7 +237,7 @@ public class PlayerController : MonoBehaviour
 
         if(collision.CompareTag("Item"))
         {
-            score += 10;
+            score += collision.GetComponent<ItemObject>().GetPoint();
 
             int activeItemID = collision.GetComponent<ItemScripts>().ActiveItem();
 

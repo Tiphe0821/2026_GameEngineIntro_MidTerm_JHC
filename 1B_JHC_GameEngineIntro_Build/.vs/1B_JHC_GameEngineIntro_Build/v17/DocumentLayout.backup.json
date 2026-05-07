@@ -1,12 +1,136 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\namuc\\Desktop\\TempProject\\2026_GameEngineIntro_MidTerm_JHC_Temp\\1B_JHC_GameEngineIntro_Build\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\rankpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rankpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|d:\\gameengineintro_1b_jhc\\2026_gameengineintro_midterm_jhc\\1b_jhc_gameengineintro_build\\assets\\scripts\\rankdataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rankdataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|d:\\gameengineintro_1b_jhc\\2026_gameengineintro_midterm_jhc\\1b_jhc_gameengineintro_build\\assets\\scripts\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\stagedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stagedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{033FCBDB-CF8C-958C-26D6-E58E11D4B3B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RankDataSO.cs",
+              "DocumentMoniker": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\RankDataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RankDataSO.cs",
+              "ToolTip": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\RankDataSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RankDataSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T06:19:26.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemObject.cs",
+              "DocumentMoniker": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\ItemObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemObject.cs",
+              "ToolTip": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\ItemObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T06:06:23.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemSO.cs",
+              "DocumentMoniker": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\ItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSO.cs",
+              "ToolTip": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\ItemSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T06:05:03.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RankPage.cs",
+              "DocumentMoniker": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\RankPage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RankPage.cs",
+              "ToolTip": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\RankPage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RankPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T05:50:42.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StageDataManager.cs",
+              "DocumentMoniker": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\StageDataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StageDataManager.cs",
+              "ToolTip": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\StageDataManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StageDataManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T05:47:25.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAowPQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T05:29:22.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TitleManager.cs",
+              "DocumentMoniker": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\TitleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TitleManager.cs",
+              "ToolTip": "D:\\GameEngineIntro_1B_JHC\\2026_GameEngineIntro_MidTerm_JHC\\1B_JHC_GameEngineIntro_Build\\Assets\\Scripts\\TitleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TitleManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T04:48:50.505Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

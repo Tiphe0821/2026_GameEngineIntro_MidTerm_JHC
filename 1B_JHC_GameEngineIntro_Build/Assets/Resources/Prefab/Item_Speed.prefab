@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7819493476795966059}
   - component: {fileID: 2578139412800537605}
   - component: {fileID: 2773568350888555558}
+  - component: {fileID: 7819877573703920965}
   m_Layer: 0
   m_Name: Item_Speed
   m_TagString: Item
@@ -152,3 +153,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemScripts
   itemNumber: 2
+--- !u!114 &7819877573703920965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7542165464993117107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1b706961da18645b6834aaad755a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: f50bc8a53e65f5c47ae7c4912e8c435b, type: 2}

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
@@ -12,8 +13,23 @@ public class TitleManager : MonoBehaviour
 
     public Scrollbar scrollbar;
 
+    public TMP_InputField inputField;
+
     public void StartButton()
     {
+        string playerName = inputField.text;
+        if(string.IsNullOrEmpty(playerName) )
+        {
+            Debug.Log("플레이어 이름을 입력하세요");
+            return;
+        }
+        PlayerPrefs.SetString("PlayerName", playerName);
+        PlayerPrefs.Save();
+
+        Debug.Log("플레이어 이름 저장됨: " + playerName);   
+
+
+
         Debug.Log("StartButton Clicked");
         SceneManager.LoadScene("Stage_01_02");
     }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5347220357572597312}
   - component: {fileID: 8938809393587869448}
   - component: {fileID: 8667275778375559225}
+  - component: {fileID: 1999552445518657509}
   m_Layer: 0
   m_Name: JumpUpItem
   m_TagString: Item
@@ -152,3 +153,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemScripts
   itemNumber: 4
+--- !u!114 &1999552445518657509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936073678837353105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1b706961da18645b6834aaad755a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: f50bc8a53e65f5c47ae7c4912e8c435b, type: 2}
